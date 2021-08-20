@@ -37,6 +37,8 @@ def test():
     print(wb.sheetnames)
     sheet = wb['Page 2']
     print('Hello world')
+    print('Hello world')
+    print('Hello world')
 
 if __name__ == '__main__':
     test()
