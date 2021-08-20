@@ -36,7 +36,9 @@ def test():
     wb = openpyxl.load_workbook('scrabble.xlsx')
     print(wb.sheetnames)
     sheet = wb['Page 2']
-    print('Hello world')
+    print('Goodbye World')
+    print('Goodbye World')
+    print('Goodbye World')
 
 if __name__ == '__main__':
     test()
